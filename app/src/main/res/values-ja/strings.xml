@@ -1,0 +1,212 @@
+<resources>
+    <string name="access_title">ファイルのアクセスが必要です</string>
+    <string name="access_description">APK Toolbox が共有ストレージ内の APK ファイルを扱えるようにするために、すべてのファイルへのアクセスを許可してください。</string>
+    <string name="install_access_title">インストールの権限が必要です</string>
+    <string name="install_access_description">APK Toolbox によるアプリのインストールを許可すると、ここから直接的にクローンアプリのインストールと更新ができるようになります。</string>
+    <string name="button_grant_access">アクセスを許可</string>
+
+    <string name="tab_apps">クローン中</string>
+    <string name="tab_clones">クローン</string>
+    <string name="search_hint">アプリを検索</string>
+    <string name="chip_system_apps">システムアプリ</string>
+    <string name="chip_clones_original">オリジナルから</string>
+    <string name="chip_clones_source">ソースから</string>
+    <string name="chip_update_available">更新が利用可能です</string>
+    <string name="chip_no_updates">更新はありません</string>
+    <string name="empty_list">アプリは見つかりません</string>
+    <string name="empty_clones">クローンはありません。インストール済みのクローンがここに表示されます。</string>
+    <string name="button_pick_apk">APK を選択</string>
+    <string name="error_invalid_apk">このファイルは有効な APK ではありません</string>
+
+    <string name="button_update">更新</string>
+    <string name="field_package">パッケージ名</string>
+    <string name="field_app_name">アプリ名</string>
+    <string name="clone_conflict">このパッケージ名のアプリはすでにインストールされていますが、別のキーで署名されています: その上にクローンをインストールすることはできません。クローンに別のパッケージ名を付けるか、インストール済みのアプリを削除してください。</string>
+    <string name="clone_conflict_remove">インストール済みのアプリを削除</string>
+    <string name="error_invalid_package">英数字、アンダースコアで構成し、ドットで区切られた部分を少なくとも 2 つ含めてください。</string>
+    <string name="signature_hint">このクローンは、元の署名ではなく「APK Toolbox」のキーで署名されています。アプリが改変されると署名が一致しなくなるためです。</string>
+    <string name="button_clone">クローン</string>
+    <string name="button_install">インストール</string>
+    <string name="button_save">保存</string>
+    <string name="status_done">クローンの準備が完了</string>
+    <string name="status_saved">保存しました</string>
+    <string name="status_failed">クローンに失敗しました: %1$s</string>
+    <string name="save_failed">保存できませんでした: %1$s</string>
+
+    <string name="install_success">インストール済み</string>
+    <string name="install_failed">インストールに失敗しました: %1$s</string>
+    <string name="detail_cloned_from">クローンから</string>
+    <string name="detail_updated_from">更新済みから</string>
+    <string name="detail_from_original">インストール済みのアプリ</string>
+    <string name="detail_from_nothing">なし: オリジナルはインストールされません</string>
+    <string name="detail_latest_version">最新のバージョン/string>
+    <string name="clone_from_original">オリジナルから</string>
+    <string name="clone_from_source">ソースから (%1$s)</string>
+    <string name="origin_system">システム</string>
+    <string name="origin_file">ファイルから</string>
+    <string name="clone_no_updates">オリジナルはありません</string>
+    <string name="version_no_updates">%1$s (未更新)</string>
+    <string name="switch_no_updates">更新しない</string>
+    <string name="clone_show_in_sources">ソースを表示</string>
+    <string name="clone_track">ソースからの最新情報</string>
+    <string name="clone_track_message">クローンはインストール済みのオリジナルをベースにリビルドされるため、オリジナルのバージョンが削除されると更新が停止してしまいます。また、Google Play はアプリのファイルを他の場所へ提供することはありません。そこで「APK Toolbox」のソースタブを活用することで同じビルドを扱っているストア (APKPure、RuStore、Galaxy Store など) から該当するアプリをパッケージ名で検索し、クローンを常に最新の状態に保つことが可能です。これを行っておけば、オリジナルのバージョンを削除しても問題あります。なお、オリジナルのバージョンとは異なる署名が施された更新は拒否されます。</string>
+    <string name="detail_original_version">オリジナルのバージョン</string>
+    <string name="detail_clone_version">クローンのバージョン</string>
+    <string name="detail_removed_permissions">削除された権限</string>
+    <string name="detail_reset_permissions">権限をリセット</string>
+    <string name="detail_not_installed">インストールされていません</string>
+    <string name="button_delete">削除</string>
+
+    <string name="settings_title">設定</string>
+    <string name="settings_check_interval">更新の確認: %1$s</string>
+    <string-array name="check_intervals">
+        <item>1 日に 1 回</item>
+        <item>3 日ごと</item>
+        <item>週に 1 回</item>
+        <item>2 週間ごと</item>
+        <item>月に 1 回</item>
+        <item>3 ヶ月ごと</item>
+        <item>6 ヶ月ごと</item>
+        <item>年に 1 度</item>
+    </string-array>
+
+    <string name="channel_updates">クローンの更新</string>
+    <string name="settings_play_protect_button">Play プロテクト設定</string>
+    <string name="notification_updating">「%1$s」を更新中…</string>
+    <string name="notification_available_title">クローンの更新が利用可能です</string>
+    <string name="notification_available_text">更新が利用可能です: %1$s. Tap to open the clones list.</string>
+
+    <string name="settings_install_method">インストール方法</string>
+    <string name="method_stock">標準</string>
+    <string name="shizuku_title">Shizuku のアクセス許可</string>
+    <string name="button_grant_shizuku">Shizuku のアクセスを許可</string>
+    <string name="shizuku_granted">Shizuku のアクセスを許可しました</string>
+    <string name="shizuku_denied">Shizuku のアクセスを拒否しました</string>
+
+    <string name="shizuku_not_running_title">Shizuku が実行していません</string>
+    <string name="shizuku_not_running">Shizuku を起動後に再度開いてください。それまでの間は、標準の方法を使用します。</string>
+    <string name="shizuku_description">APK Toolbox は Shizuku を使用することで、確認のプロンプトを表示することなくクローンのインストールや更新を行うことができます。これを利用するにはアクセスの権限を許可してください。許可されるまでは、通常の方法が適用されます。</string>
+    <string name="shizuku_granted_description">Updates are installed without confirmation.</string>
+    <string name="play_protect_on_title">Play プロテクトは ON です</string>
+    <string name="play_protect_unknown_title">Play Protect may get in the way</string>
+    <string name="play_protect_on_description">While it is on, clones are not updated in the background by this method: you get a notification and update by hand. Apps from sources are not affected. Turning app scanning off lifts the limit but lowers the protection of the device.</string>
+    <string name="play_protect_off_title">Play プロテクトは OFF です</string>
+    <string name="play_protect_off_description">Apps installed through APK Toolbox, clones included, are updated without confirmation.</string>
+
+    <string name="settings_check_updates">更新を確認</string>
+    <string name="settings_check_updates_description">In the background, on schedule. You get a notification about what was found.</string>
+    <string name="settings_auto_install">自動インストール</string>
+    <string name="settings_auto_install_description">Install found updates without confirmation.</string>
+    <string name="notification_failed_title">Could not update clones</string>
+
+    <string name="tab_split">アンチスプリット</string>
+    <string name="empty_split">No split apps found. Pick a bundle (APKS, XAPK, APKM) or several split APKs below.</string>
+    <string name="button_pick_split">分割 APK を選択</string>
+    <string name="merge_open_with">APK をインストールまたは統合</string>
+    <string name="merge_splits_title">分割: %1$d of %2$d</string>
+    <string name="merge_select_all">すべて</string>
+    <string name="merge_select_device">For this device</string>
+    <string name="merge_sign">署名後に統合</string>
+    <string name="merge_force">Merge mismatched splits anyway</string>
+    <string name="button_merge">統合</string>
+    <string name="merge_done">Merged into a single APK</string>
+    <string name="merge_done_unsigned">Merged, not signed. An unsigned APK cannot be installed until it is signed.</string>
+    <string name="merge_done_pairip">Merged, left unsigned: this app is protected by PairIP and checks its own integrity, so a re-signed build will crash on start.</string>
+    <string name="merge_mismatch">These splits have a different version or package than the base: %1$s. Deselect them, or turn on merging mismatched splits.</string>
+    <string name="merge_failed">統合に失敗しました: %1$s</string>
+    <string name="merge_not_split">This does not look like a split APK. Pick a bundle (APKS, XAPK, APKM, ZIP) or at least two APKs.</string>
+
+    <string name="tab_install">SAI</string>
+    <string name="button_pick_install">APK を選択</string>
+    <string name="install_sign">署名後にインストール</string>
+    <string name="button_export">APK をエクスポート</string>
+    <string name="files_received_title">What to do with these files?</string>
+    <string name="files_action_install">インストール</string>
+    <string name="files_action_merge">Merge into a single APK</string>
+
+    <string name="button_check_now">今すぐ確認</string>
+    <string name="check_now_started">確認中、結果は通知を表示します。</string>
+    <string name="notification_up_to_date">更新はありません</string>
+    <string name="install_copy_obb">OBB ファイルをコピー (%1$d · %2$s)</string>
+
+    <string name="settings_signing_key">キーを署名中</string>
+    <string name="key_bundled_title">組み込みのキー</string>
+    <string name="key_bundled_description">Clones and merged APKs are signed with the key that ships with the app. It is the same for everyone and public. Create or import a key of your own to sign with something only you have.</string>
+    <string name="key_custom_title">あなたのキー</string>
+    <string name="key_custom_description">%1$s\nSHA-256 %2$s…\nエクスポートして、ファイルを保存: これがない場合、このキーで署名されたクローンはアプリの再インストール後に更新できなくなります。</string>
+    <string name="key_create">作成</string>
+    <string name="key_import">インポート</string>
+    <string name="key_export">エクスポート</string>
+    <string name="key_reset">組み込みを使用</string>
+    <string name="key_password">Keystore のパスワード</string>
+    <string name="key_alias">Key エイリアス (任意)</string>
+    <string name="key_created">A new key was created</string>
+    <string name="key_imported">キーをインポートしました</string>
+    <string name="key_exported">キーをエクスポートしました</string>
+    <string name="key_reset_done">組み込みのキー</string>
+    <string name="key_failed">キーの操作に失敗しました: %1$s</string>
+    <string name="key_replace_title">キーを置換しますか？</string>
+    <string name="key_replace_message">Clones signed with the current key will no longer be listed or updated unless you import that key again. Export it first if you may need it.</string>
+    <string name="key_replace_confirm">置換</string>
+    <string name="clone_badge">Mark the icon with a dot</string>
+    <string name="merge_too_large">This app cannot be merged on the device: its resource tables (%1$d MB) need more memory than Android gives an app. Deselecting splits you do not need may help; otherwise merge it on a computer.</string>
+    <string name="tab_sources">Sources</string>
+    <string name="settings_check_sources">Apps from sources</string>
+    <string name="settings_check_sources_description">New versions of apps from the Sources tab.</string>
+    <string name="settings_sources">ソース設定</string>
+    <string name="sources_share_label">APK Toolbox で追跡</string>
+    <string name="sources_empty">追跡対象のアプリはありません。\nリンクから追加するか、検索して見つけてください。</string>
+    <string name="sources_add">アプリを追加</string>
+    <string name="sources_filter">フィルター</string>
+    <string name="sources_filter_clear">フィルターを消去</string>
+    <string name="settings_section_updates">更新</string>
+    <string name="settings_section_install">自動インストール</string>
+    <string name="settings_section_experimental">実験的</string>
+    <string name="settings_check_clones">クローン</string>
+    <string name="settings_check_clones_description">A clone is outdated when its original was updated or a new version is available in its source.</string>
+    <string name="settings_check_on_start">Check when the app opens</string>
+    <string name="settings_check_on_start_description">Updates of apps from sources and of clones are looked for every time APK Toolbox is opened.</string>
+    <string name="settings_wifi_only">Wi-Fi を待機中</string>
+    <string name="settings_wifi_only_description">Updates found on mobile data are installed once Wi-Fi is connected.</string>
+    <string name="settings_charging_only">Wait for the charger</string>
+    <string name="settings_charging_only_description">Updates found on battery are installed once the charger is connected.</string>
+    <string name="settings_sources_description">Tokens, choosing releases, import and export.</string>
+    <string name="settings_root">root でインストール</string>
+    <string name="settings_root_description">When on, takes priority over the other installation methods. Not tested.</string>
+    <string name="cloning_installed">インストール済み</string>
+    <string name="cloning_clones">クローン</string>
+    <string name="export_done">APK をエクスポートしました</string>
+    <string name="root_not_granted">root アクセスは許可されていません</string>
+    <string name="settings_install_method_description">How updates are installed in the background.</string>
+    <string name="hint_tab_install">Installs APKS, XAPK and APKM bundles and sets of split APKs. An installed app from the list can be exported as an APKS file.</string>
+    <string name="hint_tab_split">Merges an app made of several split APKs into one ordinary APK. Only apps installed as splits are listed; a bundle file can be picked as well.</string>
+    <string name="install_sign_description">Re-signs the files with the key from the settings. Needed when they were modified or their signature is broken; the app then cannot update over the original.</string>
+    <string name="merge_sign_description">Signs the merged APK with the key from the settings so it can be installed. Without it the file is left unsigned.</string>
+    <string name="merge_force_description">Merges splits even when their versions or packages differ. Use only if the normal merge refuses; the result may not work.</string>
+    <string name="tab_info">このリストについて</string>
+    <string name="hint_tab_sources">GitHub、F-Droid、各ストアとその他のサイト上のアプリを追跡します。リンクや名前を追加すると、新しいバージョンが検出され、ここからダウンロードおよびインストールが行えます。</string>
+    <string name="hint_tab_apps">インストール済みのアプリを別のパッケージ名でコピーします。コピーごとにそれぞれ独立したデータが保持されます。リストからアプリを選択するか、APK ファイルを指定してください。</string>
+    <string name="hint_tab_clones">作成したクローンはここにあります。元のデータが更新されたり、ソースに新しいバージョンがリリースされると、そのクローンは古い状態となります。</string>
+    <string name="settings_language">言語</string>
+    <string name="settings_language_description">このアプリは、指定がない限りはシステム言語を使用します。</string>
+    <string name="language_system">システムに従う</string>
+    <string name="settings_log">ログ</string>
+    <string name="settings_log_description">確認、ダウンロード、クローン、統合、インストール済みまたは失敗したもの。これは 30 日間保持されます。</string>
+    <string name="button_show_log">ログを表示</string>
+    <string name="log_empty">ログは何も記録されていません。</string>
+    <string name="log_save">保存</string>
+    <string name="button_refresh">更新</string>
+    <string name="clones_up_to_date">すべてのクローンは最新の状態です</string>
+    <plurals name="log_days">
+        <item quantity="one">%d 日</item>
+        <item quantity="other">%d 日</item>
+    </plurals>
+    <string name="search_clear">検索を消去</string>
+    <string name="clone_permissions">権限</string>
+    <string name="clone_permissions_removed">権限: %1$d 個を削除しました</string>
+    <string name="clone_permissions_hint">オリジナルが要求するものは、すべて含めないでください。クローンに似せるべきでない機能は OFF にしてください。ただし、アプリが依存している権限を無効にすると、アプリが正常に動作しなくなる可能性があります。</string>
+    <string name="clone_permissions_none">このアプリは権限を要求しません。</string>
+    <string name="clone_permission_absent">このバージョンでは要求されていません。再度現れた場合でも OFF を維持します。</string>
+    <string name="clone_permission_new">このバージョンの新着</string>
+    <string name="button_done">完了</string>
+</resources>
